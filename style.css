@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3f6faa;
+    color: brown;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sections */
+section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Background Colors */
+#introduction {
+    background-color: lightblue;
+}
+#education {
+    background-color: lightgreen;
+}
+
+
+/* Animation */
+h1 {
+    animation: fadeIn 3s ease-in-out;
+    color: chocolate;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
