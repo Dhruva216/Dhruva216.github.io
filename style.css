@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #3f6faa;
-    color: brown;
+    background-image: url('2.jpeg');
+    color: rgb(254, 36, 36);
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -23,14 +23,20 @@ section {
 }
 #education {
     background-color: lightgreen;
+    text-align: left;
 }
 
 
 /* Animation */
 h1 {
     animation: fadeIn 3s ease-in-out;
-    color: chocolate;
+    color: rgb(255, 222, 35);
 }
+
+h2 {
+    text-align: center;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
